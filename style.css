@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     background:  linear-gradient(135deg, #a8e6cf, #dcedc1, #ffd3b6);
-    font-family: Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -54,9 +54,10 @@ body {
     object-fit: cover;
 }
 .card-back {
-    background: #ffdde1;
+    background: linear-gradient(140deg,#aefcb6,#fff8a4,#ffd3b6);
     color: #333;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -79,7 +80,7 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 300px) {
     .container {
         display: grid;
         flex-direction: column;
